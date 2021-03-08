@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Signin</title>
     <h1> Homebase</h1>
-    <h2> Explore more than 10000 Exciting games  </h2>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="sign-up-form">
         <h1> Sign up now </h1>
-        <form>
-            <input type="email" class="input-box" placeholder="your Email">
-            <input type="password" class="input-box" placeholder="your password">
-            <p class="tnc"> <span><input type="checkbox"></span>  I agree to the terms and condition     </p>
-            <button type="button" class="sign-btn"><b>sign up</b> </button>
+        <div class="alert">Your message has been sent</div>
+        <form id="Signin">
+            <input type="text" class="input-box" placeholder="Your name" id="name">
+            <input type="email" class="input-box" placeholder="your Email" id="email">
+            <input type="password" class="input-box" placeholder="your password" id="password">
+            <p class="tnc"> <span><input type="checkbox" id="t/c"></span>  I agree to the terms and condition     </p>
+            <button type="submit" class="sign-in"><b>sign up</b> </button>
             <hr>
             <p class="or"> OR login with </p>
             <!-- add a logo here-->
@@ -28,5 +29,10 @@
 
         </form>
     </div>
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>>
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+    
+
+<script src="main.js"></script>
 </body>
 </html>

@@ -42,7 +42,7 @@ button{
     color:white;
     width: 100%;
     padding: 10px;
-    border radius: 10px;
+    outline-width:10px;
     font-size: 15px;
     margin:10px 0;
     border: none;
@@ -50,7 +50,9 @@ button{
     
 
 }
-.sign-btn {
+
+    
+.sign-in {
     background-color: tomato;
     font-family: 'Times New Roman', Times, serif;
     
@@ -66,3 +68,11 @@ hr {
 .tnc {
     color:white
 }
+.alert{
+    text-align: center;
+    padding:10px;
+    background:black;
+    color:#fff;
+    margin-bottom:10px;
+    display:none;
+  }
