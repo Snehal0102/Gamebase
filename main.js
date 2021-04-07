@@ -56,3 +56,5 @@ function savemessage(name, email, password){
 
     }).then(function(){console.log('success')}).catch(function(error){console.log('error',error)});
 }
+
+function f1(){window.location.href="file:///C:/COLLEGE/Easy%20semester/Web%20devlopement/WOC-GAMEBASE/main%20Page/mainpage.html"}
