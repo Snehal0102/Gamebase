@@ -1,0 +1,78 @@
+h1 { 
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: maroon;
+    margin-top: 60px;
+}
+
+
+
+body {
+    background: url(games.jpg);
+}  
+.sign-up-form { 
+    width: 300px;
+    box-shadow: black;
+    background:maroon;
+    padding: 20px;
+    margin: 8% auto 0 ;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+.sign-up-form h1 
+{
+    color:white;
+    margin-bottom: 20px;
+}
+
+.input-box
+{ 
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid black;
+    outline: black;
+    ;
+}
+button{
+    color:white;
+    width: 100%;
+    padding: 10px;
+    outline-width:10px;
+    font-size: 15px;
+    margin:10px 0;
+    border: none;
+    outline: none;
+    
+
+}
+
+    
+.sign-in {
+    background-color: tomato;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+  
+hr {
+    margin-top: 20px;
+    width: 80%
+}
+.or {
+    color: white;
+}
+.tnc {
+    color:white
+}
+.alert{
+    text-align: center;
+    padding:10px;
+    background:black;
+    color:#fff;
+    margin-bottom:10px;
+    display:none;
+  }
