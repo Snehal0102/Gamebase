@@ -57,4 +57,4 @@ function savemessage(name, email, password){
     }).then(function(){console.log('success')}).catch(function(error){console.log('error',error)});
 }
 
-function f1(){window.location.href="mainpage.html"}
+function f1(){window.location.assign("mainpage.html")}
